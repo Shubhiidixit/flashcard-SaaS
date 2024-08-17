@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan&display=swap');
+
+/* Global styles */
+body,
+h1,
+h2,
+p,
+footer,
+header {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sedan', serif;
+    /* Update to use Sedan font */
+}
+
+body {
+    background: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.auth-button {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+    background-color: #333;
+}
+
+.generateButton {
+    background-color: #000;
+    /* Black background */
+    color: white;
+    /* White text */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    /* Adds spacing above the button */
+}
+
+.generateButton:hover {
+    background-color: #333;
+    /* Darker gray on hover */
+}
+
+/* Main Content */
+main {
+    width: 100%;
+    padding: 40px 20px;
+    /* Reduced padding */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    height: 60vh;
+    /* Reduced height */
+    text-align: center;
+}
+
+.hero-text {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5rem;
+    /* Adjust line height for better spacing */
+}
+
+.hero-text h1 {
+    color: #000000;
+    font-size: 3rem;
+    /* Adjusted size */
+    margin-bottom: 10px;
+    /* Adjusted margin */
+    font-weight: 700;
+    /* Bold heading */
+    text-transform: uppercase;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    /* Adjusted text size for readability */
+    margin-bottom: 20px;
+    /* Reduced margin */
+    color: #555;
+    line-height: 1.4;
+    /* Adjusted line height */
+}
+
+/* Features Section */
+.features-section {
+    background: #f0f0f0;
+    padding: 40px 20px;
+    /* Reduced padding */
+    color: #000000;
+    text-align: center;
+}
+
+.features-section h2 {
+    font-size: 2.5rem;
+    /* Reduced heading size */
+    font-weight: bold;
+    /* Bold heading */
+    margin-bottom: 20px;
+}
+
+.features-section p {
+    font-size: 1rem;
+    /* Smaller text */
+    margin-bottom: 20px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feature {
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.feature-icon {
+    font-size: 2.2rem;
+    /* Slightly smaller icon size */
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    /* Smaller feature heading */
+    margin-bottom: 10px;
+    font-weight: bold;
+    /* Bold feature heading */
+}
+
+.feature p {
+    font-size: 0.9rem;
+    /* Smaller text */
+    color: #555555;
+}
+
+/* Pricing Section */
+.pricing-section {
+    background: #ffffff;
+    padding: 40px 20px;
+    /* Reduced padding */
+    color: #000000;
+}
+
+.pricing-section h2 {
+    font-size: 2.5rem;
+    /* Reduced heading size */
+    font-weight: bold;
+    /* Bold heading */
+    margin-bottom: 20px;
+}
+
+.pricing-section p {
+    font-size: 1rem;
+    /* Smaller text */
+    margin-bottom: 30px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    /* Center align the pricing cards */
+    align-items: center;
+    gap: 20px;
+    /* Adjust gap between pricing cards */
+}
+
+.pricing-card {
+    background: #f8f8f8;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 10px;
+    width: 40%;
+    /* Equal width for all cards */
+    text-align: left;
+    color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.pricing-card p.price {
+    font-size: 2rem;
+    /* Larger price font */
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.pricing-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pricing-card ul li {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.pricing-card ul li:before {
+    content: '✔';
+    color: #000000;
+    margin-right: 10px;
+}
+
+.pricing-card button {
+    background: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.pricing-card button:hover {
+    background: #333333;
+}
+
+/* Footer */
+footer {
+    background: #ffffff;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #000;
+}

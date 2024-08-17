@@ -1,0 +1,129 @@
+.generateFlashcardsContainer {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flashcardsDisplay {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 150px;
+}
+
+.textInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.generateFlashcardsButton {
+    background-color: #000;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+
+.generateFlashcardsButton:hover {
+    background-color: #333;
+}
+
+.saveButton {
+    background-color: #000;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+}
+
+.saveModal {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.flashcardSaved {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.flashcardSaved p {
+    font-size: 1rem;
+    color: green;
+}
+
+.viewSetsButton {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.flashcardSetsContainer {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flashcardSet {
+    background: #ffffff;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.flashcardSet p {
+    margin: 5px 0;
+}
+
+.flashcardSet h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.flashcardSetHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deleteButton {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.deleteButton:hover {
+    background-color: #ff1a1a;
+}
